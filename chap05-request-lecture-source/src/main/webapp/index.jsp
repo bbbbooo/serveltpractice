@@ -2,10 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Request Header</title>
+    <title>JSP - Hello World</title>
 </head>
 <body>
-    <h1>Request Header</h1>
-    <a href="headers">요청 헤더값 출력해보기</a>
+
 </body>
 </html>
