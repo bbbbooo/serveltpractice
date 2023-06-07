@@ -39,5 +39,16 @@ public class QueryStringTestServlet extends HttpServlet {
         java.sql.Date birthday= java.sql.Date.valueOf(request.getParameter("birthday"));
         System.out.println("birthday = " + birthday);
         System.out.println(birthday instanceof java.sql.Date);
+
+        String gender = request.getParameter("gender");
+        System.out.println("gender = " + gender);
+
+        String national = request.getParameter("national");
+        System.out.println("national = " + national);
+
+        String[] hobbies = request.getParameterValues("hobbies");
+        for(String hobby : hobbies){
+            System.out.println("hobby : " + hobby);
+        }
     }
 }
