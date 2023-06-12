@@ -12,7 +12,7 @@
 </head>
 <body>
   <h1>메뉴 주문</h1>
-  <form action="menu/order" method="post">
+  <form action="/menu/order" method="post">
     <select id="menu" name="menuName">
       <option value="햄버거">햄버거</option>
       <option value="짜장면">짜장면</option>
